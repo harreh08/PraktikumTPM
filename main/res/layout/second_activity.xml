@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--    bagian atas -->
+
+    <TextView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="40px"
+        android:text="Album 1 dan 2 Tulus"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:background="@color/abugelap"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/tuluss" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:text="Album “TULUS” merupakan kantung album musik pertama Tulus yang diproduseri oleh Ari Renaldi. Cetakan pertamanya berjumlah 1000 keping dan langsung terjual habis pada saat konser pertama tersebut dilangsungkan."
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <!--    bagian bawah -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/abu"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:text="Gajah adalah album studio kedua dari penyanyi Tulus. Album ini resmi dirilis pada tanggal 19 Februari 2014 oleh Demajors. Beberapa bulan setelah perilisan, Gajah berhasil berada di deretan tangga lagu indonesia. Album ini menempati posisi kedelapan di iTunes Indonesia pada bulan Juli. Selain itu lagu Sepatu dan Jangan Cintai Aku Apa Adanya juga sukses di situs tersebut dengan posisi ke-30 dan ke-12 pada bulan yang sama."
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/album2" />
+    </LinearLayout>
+</LinearLayout>
